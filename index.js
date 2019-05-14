@@ -9,7 +9,7 @@ function nowServing(people) {
   for (var i = 0; i <= people.length; i++){
     if (people.length > 0){
       var next = people.shift();
-      return 'Now serving ' + next + '!';
+      return 'Currently serving ' + next + '.';
     } else {
       return 'There is nobody waiting to be served!'
     }
